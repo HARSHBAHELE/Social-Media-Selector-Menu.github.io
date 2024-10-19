@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, purple 20%, orange 80%);
+  }
+  .menu {
+    background: lightgrey;
+    width: 300px;
+    opacity: 0.3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+#arrow {
+    transition: transform .2s;
+    font-size: 30px;
+}
+.menu p {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.container {
+  background: lightgray;
+  width: 300px;
+  padding: 10px;
+  opacity: 0.3;
+  list-style-type: none;
+  border-radius: 5px;
+}
+.container li:hover {
+    background: darkgray;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+#fb {
+    color: rgb(7, 7, 253);
+    font-size: 20px;
+}
+#you {
+    color: red;
+    font-size: 20px;
+}
+#Tw {
+    color: blue;
+    font-size: 20px;
+}
+#link {
+    color: blue;
+    font-size: 20px;
+}
+#app {
+    color: 	#25D366;
+    font-size: 20px;
+}
+#git {
+    color:black;
+    font-size: 20px;
+}
+#hub {
+    color:rgb(250, 165, 7);
+    font-size: 20px;
+    
+}
+#tel {
+    color:rgb(19, 19, 207);
+    font-size: 20px;
+}
+#mess {
+    color:rgb(197, 164, 19);
+    font-size: 20px;
+}
+#insta {
+    color: rgb(214, 23, 96);
+    font-size: 20px;
+}
+li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: padding 0.2s linear;
+}
+.container li #fb {
+    margin: 0 10px;
+}
+.container li #insta {
+    margin: 0 10px;
+}
+.container li #tel {
+    margin: 0 10px;
+}
+.container li #app {
+    margin: 0 10px;
+}
+.container li #git {
+    margin: 0 10px;
+}
+.container li #hub {
+    margin: 0 10px;
+}
+.container li #you {
+    margin: 0 10px;
+}
+.container li #Tw {
+    margin: 0 10px;
+}
+.container li #link {
+    margin: 0 10px;
+}
+.container li #mess {
+    margin: 0 10px;
+}
+.rotate #arrow {
+    transform: rotate(180deg);
+}
+.hide {
+    visibility: hidden;
+}
+li p {
+    color: black;
+}
